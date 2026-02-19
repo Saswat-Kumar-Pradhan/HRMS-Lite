@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8000/api/attendance";
+const API_BASE = "https://hrmslitebackend-three.vercel.app/api/attendance";
 
 export async function getAttendance({ employeeId, date } = {}) {
     const params = new URLSearchParams();

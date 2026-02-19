@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8000/api/employees";
+const API_BASE = "https://hrmslitebackend-three.vercel.app/api/employees";
 
 export async function getEmployees() {
     const res = await fetch(API_BASE);
